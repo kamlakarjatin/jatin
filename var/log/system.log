@@ -1,0 +1,164 @@
+[2024-06-25T13:54:19.380232+00:00] main.ERROR: Parameter validation failed
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-06-25T13:54:49.125132+00:00] main.ERROR: Parameter validation failed
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-06-25T13:56:31.444736+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2024-06-25T14:08:39.308779+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-25T14:10:43.618513+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-25T15:12:19.436840+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T07:38:18.092338+00:00] main.ERROR: The "/home/cloudpanel/htdocs/jatin.mgtcommerce.com/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-06-26T07:38:18.096352+00:00] main.CRITICAL: The "/home/cloudpanel/htdocs/jatin.mgtcommerce.com/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-06-26T07:44:13.358891+00:00] main.ERROR: Sample Data error: Warning: file_get_contents(/home/cloudpanel/htdocs/jatin.mgtcommerce.com/pub/media/downloadable/files/links/l/u/luma_background_-_model_against_fence_4_sec_.mp4): Failed to open stream: No such file or directory in /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/module-downloadable-sample-data/Model/Product/Converter.php on line 132 [] []
+[2024-06-26T07:44:16.312041+00:00] main.ERROR: Sample Data error: File directory 'pub/media/catalog/product' is not writable. [] []
+[2024-06-26T07:44:18.467223+00:00] main.ERROR: Sample Data error: Require product with SKU#WJ01 not found! [] []
+[2024-06-26T07:44:22.057953+00:00] main.ERROR: Please specify order items. [] []
+[2024-06-26T07:44:22.058340+00:00] main.ERROR: Sample Data error: Validation is failed. [] []
+[2024-06-26T07:45:53.764258+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T07:45:55.813198+00:00] main.ERROR: The "/home/cloudpanel/htdocs/jatin.mgtcommerce.com/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-06-26T07:45:55.813440+00:00] main.CRITICAL: The "/home/cloudpanel/htdocs/jatin.mgtcommerce.com/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2024-06-26T07:57:31.288473+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T07:59:33.751821+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T08:06:29.730437+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T08:07:59.721563+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T08:08:23.961027+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T08:09:12.519483+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T08:09:28.509496+00:00] main.ERROR: NOTE: Manual static content deployment is not required in "default" and "developer" modes.
+In "default" and "developer" modes static contents are being deployed automatically on demand.
+If you still want to deploy in these modes, use -f option: 'bin/magento setup:static-content:deploy -f'
+#0 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/setup/src/Magento/Setup/Console/Command/DeployStaticContentCommand.php(112): Magento\Setup\Console\Command\DeployStaticContentCommand->checkAppMode()
+#1 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DeployStaticContentCommand->execute()
+#2 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run()
+#3 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand()
+#4 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun()
+#5 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun()
+#6 /home/cloudpanel/htdocs/jatin.mgtcommerce.com/bin/magento(23): Symfony\Component\Console\Application->run()
+#7 {main} [] []
+[2024-06-26T08:51:12.853911+00:00] main.ERROR: Connection to Redis tcp://arn:aws:elasticache:us-east-1:742060209718:serverlesscache:jatin-cache:6379 failed after 2 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for arn:aws:elasticache:us-east-1:742060209718:serverlesscache:jatin-cache failed: Name or service not known [] []
+[2024-06-26T11:22:48.943246+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:22:51.848896+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:23:01.808430+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:23:02.426413+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:23:14.132627+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:23:14.570263+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:27:08.783893+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:30:39.067434+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:36:24.575216+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:36:26.393973+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:36:37.390743+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:36:37.832729+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T11:37:33.550312+00:00] main.CRITICAL: Connection to Redis tcp://jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379:6379 failed after 1 failures.Last Error : (1) php_network_getaddresses: getaddrinfo for jatin-sesstion.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed: Name or service not known [] []
+[2024-06-26T12:34:39.215863+00:00] main.ERROR: Connection to Redis tcp://jatin-cache.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed after 2 failures.Last Error : (1) Connection timed out [] []
+[2024-06-26T12:35:00.892062+00:00] main.ERROR: Connection to Redis tcp://jatin-cache.4cruoe.ng.0001.use1.cache.amazonaws.com:6379 failed after 2 failures.Last Error : (1) Connection timed out [] []
+[2024-06-27T11:21:09.787975+00:00] main.ERROR: {"error":{"root_cause":[{"type":"index_not_found_exception","reason":"no such index [magento2_prod_product_1]","resource.type":"index_or_alias","resource.id":"magento2_prod_product_1","index_uuid":"_na_","index":"magento2_prod_product_1"}],"type":"index_not_found_exception","reason":"no such index [magento2_prod_product_1]","resource.type":"index_or_alias","resource.id":"magento2_prod_product_1","index_uuid":"_na_","index":"magento2_prod_product_1"},"status":404} [] []
